@@ -1,0 +1,176 @@
+html, body {
+    margin:0;
+    padding: 0;
+   /*background-color: darkgray;*/
+    background-image: url("../images/background1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#container
+{
+	margin-top: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#display
+{
+	
+	
+	width: 800px;
+	height: 550px;
+	border: 1px solid red;
+	background-color: gainsboro;
+
+	
+}
+
+
+.izbor
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 25%;
+	margin-bottom: 2%;
+}
+
+.buttons
+{
+	width: 200px;
+	height: 30px;
+	color: red;
+	background-color: black;
+	border-color: black;
+	outline: normal;
+	margin: 1%;
+	font-weight: bold;
+}
+
+input
+{
+	text-align: center;
+}
+
+
+
+#table
+{
+	height: 80%;
+	width: 80%;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+#table
+{
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	height: 500px;
+	width: 500px;
+	margin: 15px auto;
+	
+}
+
+
+
+
+
+
+
+
+#wrapp {
+    width: 100%;
+    min-height: 100vh;
+	
+}
+
+
+.kontejner{
+    width: 600px;
+    height: 500px;
+    border: 2px solid #eee;
+    margin: 70px auto;
+	
+}
+
+
+.box{
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    border:1px solid black;
+    float:left;
+    position: relative;
+}
+
+.iza {
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    position: absolute;
+    transform: perspective(900px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 0.7s linear;
+    font-size: 2em;
+    line-height: 100px;
+    text-align: center;
+}
+
+.ispred {
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    position: absolute;
+    background: red;
+    backface-visibility: hidden;
+    transition: transform 0.7s linear;
+}
+
+
+.buttons1
+{
+	width: 100%;
+	width: 100%;
+	background-color: black;
+	color: red;
+	border-color: none;
+	border-width: 0px;
+}
+#upute_text
+{
+	text-align: center;
+	width: 80%;
+	padding-right: 20%;
+	padding-left: 10%;
+	color: red;
+	font-size: 22px;
+}
+#upute_naslov
+{
+	color: red;
+	text-align: center;
+}
+#upute_container
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#container
+{
+	color:red;
+}
+
+
+
+
